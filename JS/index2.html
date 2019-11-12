@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Objetos</title>
+	<link rel="stylesheet" href="">
+</head>
+<body>
+	<h2 id="resultado"></h2>
+	
+	<script>
+		var resultado = document.getElementById('resultado');
+
+		// var objetos = {
+		// 	nombre: 'Emilio',
+		// 	apellido: 'Senguana',
+		// 	edad: 19,
+		// 	fechaNac: '06/01/2019',
+		// 	direccion : {
+		// 		parroquia: 'Macuma',
+		// 		comunidad: 'Shimpim'
+		// 	}
+		// }
+		var nombres = [
+		{
+			nombre: 'Emilio',
+			apellido: 'Senguana'
+		},
+		{
+			nombre: 'Danis',
+			apellido: 'Manchu'
+		},
+		{
+			nombre: 'Adiel',
+			apellido: 'Senguana'
+		},
+		{
+			nombre: 'Alexis',
+			apellido: 'Ramirez'
+		}
+		]
+
+		// for (const salida of nombres) {
+		console.log(nombres[2])
+		for (let datos of nombres){
+			console.log(datos.nombre)
+		}
+		
+		
+	</script>
+</body>
+</html>
